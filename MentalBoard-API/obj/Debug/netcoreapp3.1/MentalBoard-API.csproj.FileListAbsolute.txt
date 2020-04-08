@@ -46,5 +46,4 @@ C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\Mental
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
