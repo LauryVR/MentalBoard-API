@@ -54,3 +54,8 @@ C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\Mental
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\MentalBoard-API.xml
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll

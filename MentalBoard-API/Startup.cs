@@ -43,8 +43,9 @@ namespace MentalBoard_API
                 c.IncludeXmlComments(xmlPath);
             });
 
-            services.AddIdentity<User, IdentityRole>()
-                .AddEntityFrameworkStores<MentalBoardContext>();
+            services.AddIdentity<AppUser, AppRole>()
+                .AddEntityFrameworkStores<MentalBoardContext>()
+                .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +54,11 @@ namespace MentalBoard_API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
 
             app.UseSwagger();
@@ -63,9 +69,11 @@ namespace MentalBoard_API
             });
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

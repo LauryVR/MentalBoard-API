@@ -4,10 +4,5 @@
         <name>MentalBoard-API</name>
     </assembly>
     <members>
-        <member name="M:MentalBoard_API.Controllers.WeatherForecastController.Get">
-            <summary>
-            Deletes a specific TodoItem.
-            </summary>
-        </member>
     </members>
 </doc>

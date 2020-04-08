@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace MentalBoard_API.Models
 {
-    public class User : IdentityUser<int>
+    public class AppUserRole : IdentityUserRole<int>
     {
-
     }
 }
