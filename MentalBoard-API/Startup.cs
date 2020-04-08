@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MentalBoard_API.Contexts;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
+using System.IO;
 
 namespace MentalBoard_API
 {
@@ -34,6 +36,9 @@ namespace MentalBoard_API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MentalBoard", Version = "v1" });
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 

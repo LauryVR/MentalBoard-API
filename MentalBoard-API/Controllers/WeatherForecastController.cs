@@ -23,6 +23,9 @@ namespace MentalBoard_API.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Deletes a specific TodoItem.
+        /// </summary>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
