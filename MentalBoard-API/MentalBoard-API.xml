@@ -4,9 +4,14 @@
         <name>MentalBoard-API</name>
     </assembly>
     <members>
-        <member name="M:MentalBoard_API.Controllers.WeatherForecastController.Get">
+        <member name="M:MentalBoard_API.Controllers.AppUsersController.CreateUser(MentalBoard_API.Models.AppUser)">
             <summary>
-            Deletes a specific TodoItem.
+            Create a new user.
+            </summary>
+        </member>
+        <member name="M:MentalBoard_API.Controllers.AppUsersController.Login(MentalBoard_API.Models.AppUser)">
+            <summary>
+            Login of a user.
             </summary>
         </member>
     </members>
