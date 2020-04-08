@@ -47,3 +47,9 @@ C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\Mental
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cache
