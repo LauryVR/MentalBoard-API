@@ -52,7 +52,7 @@ namespace MentalBoard_API.Controllers
                 }
                 else
                 {
-                    return BadRequest("Invalid data.");
+                    return BadRequest("Invalid data, try again.");
                 }
             }
             else
