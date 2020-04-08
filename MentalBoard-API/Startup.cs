@@ -15,6 +15,8 @@ using MentalBoard_API.Contexts;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.IO;
+using MentalBoard_API.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace MentalBoard_API
 {
@@ -40,6 +42,9 @@ namespace MentalBoard_API
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+
+            services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<MentalBoardContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
