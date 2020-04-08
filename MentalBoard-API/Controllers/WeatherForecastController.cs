@@ -23,6 +23,7 @@ namespace MentalBoard_API.Controllers
             _logger = logger;
         }
 
+        
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

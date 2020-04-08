@@ -53,3 +53,4 @@ C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\Mental
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\obj\Debug\netcoreapp3.1\MentalBoard-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LauryVaquedano\Documents\Mine\Acklen\MentalBoard\MentalBoard-API\MentalBoard-API\bin\Debug\netcoreapp3.1\MentalBoard-API.xml
