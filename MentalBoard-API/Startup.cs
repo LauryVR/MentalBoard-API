@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MentalBoard_API.Contexts;
+using Microsoft.OpenApi.Models;
 
 namespace MentalBoard_API
 {
@@ -30,6 +31,10 @@ namespace MentalBoard_API
             services.AddControllers();
             services.AddDbContext<MentalBoardContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MentalBoard", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +44,13 @@ namespace MentalBoard_API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MentalBoard V1");
+            });
 
             app.UseHttpsRedirection();
 
